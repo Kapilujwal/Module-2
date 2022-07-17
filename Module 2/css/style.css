@@ -1,0 +1,90 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: rgb(255, 250, 180);
+}
+
+h1 {
+ margin: 20px;
+ text-align: center;
+}
+
+.box {
+ position: relative;
+ 
+ width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 20PX;
+}
+
+h3 {
+ border: 2px solid black;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ text-align: center;
+
+ width: 120px;
+}
+
+#Chicken {
+ background-color: rgb(253, 253, 116);
+}
+
+#Mutton {
+ background-color: rgb(177, 5, 5);
+ color: rgb(231, 230, 230);
+}
+
+#Fish {
+ background-color: rgb(27, 211, 27);
+}
+
+p {
+ background-color: gray;
+ padding: 30px 20px 20px 20px;
+ border: 2px solid black;
+ height: 180px;
+
+ width: 100%;
+
+}
+/* Large Devices */
+@media(min-width:992px) {
+ .box{
+  float: left;
+  width: 30.5%;
+  margin: 1.4%;
+  
+ }
+ .row{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+ }
+ 
+}
+/* medium devices */
+@media( min-width:768px) and (max-width:991px){
+ .box{
+  float:left ;
+  width: 47.2%;
+  margin: 1.4%;
+ }
+ .row{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+ }
+ #Fishes{
+  width: 97.3%;
+  
+ }
+}
+ 
